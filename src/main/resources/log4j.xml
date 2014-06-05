@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SySTEM "log4j.dtd" >
+
+    <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+           <appender name="A1" class="org.apache.log4j.ConsoleAppender">
+                <param name="" value="" />
+                <layout class="org.apache.log4j.TTCCLayout"></layout>
+            </appender>
+            <root>
+
+                <priority value="debug"/>
+                <appender-ref>A1</appender-ref>
+            </root>
+        </log4j:configuration>
